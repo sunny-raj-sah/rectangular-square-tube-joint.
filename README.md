@@ -21,22 +21,25 @@ Built with React and Three.js, and packaged as a desktop app using Tauri.
 ## Setup and Usage
 
 1. Clone the repository:  
-   git clone https://github.com/sunny-raj-sah/rectangular-square-tube-joint.git
+   git clone https://github.com/sunny-raj-sah/rectangular-square-tube-joint..git
    cd rectangular-square-tube-joint
 
-2. Install dependencies:  
-   npm install
+2. Install dependencies:
+
+npm install
 
 3. Start the development server:  
    npm run dev
 
-4. Access the app in your browser at [http://localhost:5173](http://localhost:5173) (adjusted for Vite default port) or run the Tauri desktop dev mode:  
-   npm run tauri:dev
+4. Access the app in your browser at [http://localhost:5173](http://localhost:5173) (adjusted for Vite default port) or run the Tauri desktop dev mode:
+
+npm run tauri:dev
 
 ## Build and Packaging
 
-1. Build web assets:  
-   npm run build
+1. Build web assets:
+
+npm run build
 
 2. Build and package the Tauri desktop app:
 
@@ -44,9 +47,10 @@ cargo tauri build
 
 3. Find the packaged executables and installers in:
 
-src-tauri/target/release/bundle/
+4. Google Drive Download Link for the packaged executable:  
+   [https://drive.google.com/file/d/1tGgGVE0abhpe5SfZ-KXt1PusOpvWkStj/view?usp=sharing](https://drive.google.com/file/d/1tGgGVE0abhpe5SfZ-KXt1PusOpvWkStj/view?usp=sharing)
 
-4. Install the app by running the appropriate installer (`.msi` or `.exe`).
+5. Install the app by running the appropriate installer (`.msi` or `.exe`).
 
 ## GitHub Workflow (CI)
 
